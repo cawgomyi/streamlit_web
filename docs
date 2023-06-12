@@ -1,8 +1,0 @@
-import streamlit as st
-import subprocess
-
-# 외부 파이썬 스크립트 실행
-result = subprocess.run(['python', 'your_script.py'], capture_output=True, text=True)
-
-# 실행 결과 출력
-st.write(result.stdout)
