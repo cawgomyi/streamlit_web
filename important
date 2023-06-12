@@ -1,0 +1,6 @@
+async def install_libraries():
+    await micropip.install('numpy’)	 	# NumPy 라이브러리 다운로드
+    await micropip.install('pandas’) 	# pandas 라이브러리 다운로드
+
+async def main():
+    await install_libraries()
